@@ -1,0 +1,12 @@
+.rodapé {
+    background-color: var(--fundo-secundario);
+    padding: 1em;
+}
+
+.rodapé__texto {
+    color: var(--cor-texto);
+    font-size: 14px;
+    font-weight: 300;
+    margin: 2px;
+    padding: 2px;
+}

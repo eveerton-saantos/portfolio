@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url(../styles/header.css);
+@import url(../styles/footer.css);
+
+:root {
+    --cor-titulo: #fff;
+    --cor-texto: #d1d5db;
+    --fundo: #030712;
+    --fundo-secundario: #111827;
+    --fonte: "Inter", serif;
+}
+
+body {
+    background-color: var(--fundo);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.apresentação, .sobre, .habilidades, .projetos, .contato {
+    padding: 1.5em 0.75em;
+}
+
+.apresentação__imagem {
+    display: flex;
+    justify-content: center;
+    padding: 3em 0 1.5em 0;
+}
+
+.apresentação__foto {
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.sobre__foto-everton {
+    justify-content: center;
+    border-radius: 10px;
+    width: 280px;
+}
+
+.titulo {
+    padding: 1em 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-titulo);
+}
+
+.apresentação__info {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 15px;
+    gap: 10px;
+    padding: 0.1em 0;
+}
+
+.texto {
+    color: var(--cor-texto);
+    padding: 0 0 1em 0;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.apresentação__texto {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.apresentação__flex {
+    padding: 2.5em 0;
+}
+
+
+.apresentação__link {
+    text-decoration: none;
+    padding: 0 0.3em;
+}
+
+.icone-redes {
+    width: 26px;
+}
+
+.sobre {
+    background-color: var(--fundo-secundario);
+}
+
+.sobre__foto {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0 1.5em 0;
+}
+
+/* Habilidades */
+.habilidades__lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.7em;
+}
+
+.habilidades__lista-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 1em;
+    gap: 0.7em;
+
+}
+
+.habilidades__imagem {
+    width: 3em;
+}
+
+.projetos {
+    background-color: var(--fundo-secundario);
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato__texto {
+text-align: center;
+
+}
+
+.contato-email-tel {
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 0.5em;
+}
+
+.contato__texto__plataformas {
+    display: flex;
+    font-weight: 400;
+    color: var(--cor-texto);
+    text-align: center;
+    padding: 1.2em 0 1em 0;
+}
+
+.contato__link {
+    margin: 0.5em;
+}
+
+.contato__div {
+    padding: 0 0 2.5em 0;
+}
